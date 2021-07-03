@@ -23,7 +23,7 @@ def predict():
         result_dict={'image':path,
                     'caption':caption}
       
-        
+        print (result_dict)
 
     return render_template('index.html',your_result=result_dict)
 

@@ -14,7 +14,9 @@
         <button type="submit"> Generate Caption </button>
 
     </form>
-
-    <h2>your caption is : {{caption}}</h2>
+    {% if your_result %}
+    <img src='{{your_result['image']}}'>
+    <h2>your caption is : {{your_result['caption']}}</h2>
+    {% endif %}
 </body>
 </html>

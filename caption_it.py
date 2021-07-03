@@ -39,7 +39,7 @@ with open('static/word_idx.pkl','rb') as f:
   word_idx=pickle.load(f)
 
 from keras.models import load_model
-model_x=load_model('static/imgcap_5.h5')
+model_x=load_model('static/latest.h5')
 model_x.make_predict_function()                                    #importing vocab dict
 
 
