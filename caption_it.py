@@ -4,7 +4,7 @@ import numpy as np
 
 from keras.preprocessing import image
 
-from tensorflow.keras.applications.resnet50 import preprocess_input, decode_predictions
+from keras.applications.resnet50 import preprocess_input
 from keras.applications.resnet50 import ResNet50
 from keras.layers import *
 from keras.models import Model
