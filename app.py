@@ -1,4 +1,4 @@
-from flask import Flask,redirect,render_template,request
+from flask import Flask,render_template,request
 import caption_it
 
 app=Flask(__name__)

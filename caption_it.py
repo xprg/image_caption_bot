@@ -48,7 +48,7 @@ def predict_caption(photo):                                          #caption fr
   photo=photo.reshape(1,-1)
   
   ans="<s>"
-  max_len=35
+  max_len=16
 
   for i in range(max_len):
     seq=[word_idx[x] for x in ans.split() if x in word_idx]
