@@ -1,13 +1,13 @@
 
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+from keras.preprocessing.sequence import pad_sequences
 import numpy as np
 
-from tensorflow.keras.preprocessing import image
+from keras.preprocessing import image
 
-from tensorflow.keras.applications.resnet50 import preprocess_input
-from tensorflow.keras.applications.resnet50 import ResNet50
-from tensorflow.keras.layers import *
-from tensorflow.keras.models import Model
+from keras.applications.resnet50 import preprocess_input
+from keras.applications.resnet50 import ResNet50
+from keras.layers import *
+from keras.models import Model
 import pickle
 
 
