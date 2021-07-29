@@ -1,5 +1,5 @@
 Flask==1.1.2
 tensorflow-cpu==1.15
-
+h5py==2.10.0   // downgrading 
 numpy==1.18.1
 gunicorn==20.1.0
