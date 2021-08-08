@@ -9,4 +9,4 @@ currently using a basic flask web app for hosting.
 
 Refer the results folder for some sample predictions.
 
-# IMPORTANT : the version of python and other package need be configured as they are different for various platforms.
+#IMPORTANT : the version of python and other package need be configured as they are different for various platforms.
